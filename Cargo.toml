@@ -12,4 +12,5 @@ travis-ci = { repository = "rrbutani/mandelbrot-example", branch = "master" }
 
 [dependencies]
 motivations = "^1.1.2"
-ferris_says = "~0.1.1"
+ferris-says = "~0.1.1"
+rand = "~0.5.5"
