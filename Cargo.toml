@@ -1,0 +1,15 @@
+[package]
+name = "motivational-ferris"
+description = "A very silly utility involving Ferris and some crowd-sourced Rust themed motivation"
+version = "0.0.1"
+authors = ["Rahul Butani <rr.butani@gmail.com>"]
+repository = "https://github.com/rrbutani/motivational-ferris.git"
+license = "MIT"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "rrbutani/mandelbrot-example", branch = "master" }
+
+[dependencies]
+motivations = "^1.1.2"
+ferris_says = "~0.1.1"
