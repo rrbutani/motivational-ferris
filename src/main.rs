@@ -13,7 +13,7 @@ fn main() {
         .choose(&motivations::MOTIVATIONS)
         .unwrap()
         .as_bytes();
-    let width = cmp::min(40, out.len());
+    let width = cmp::min(50, out.len());
 
     let mut writer = BufWriter::new(stdout.lock());
     say(out, width, &mut writer).unwrap();
